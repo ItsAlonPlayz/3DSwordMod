@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "god_sword",
+        "8": "god_sword"
+      },
+      "name": "default"
+    }
+  }
+}

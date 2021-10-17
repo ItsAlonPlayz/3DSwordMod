@@ -1,0 +1,49 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "god_sword",
+    "customModelName": "itsalonplayz_god_sword.2.0json:default",
+    "name": "§r§6ItsAlonPlayz §bGod Sword",
+    "specialInfo": [
+      "§r§bOnly §6ItsAlonPlayz§b Can Use This Sword",
+      "§",
+      "Abilites",
+      "§",
+      "Lightning Swarm  Right Click To Summon Lightning 10 Blocks Away",
+      "§",
+      "Fireball Attack  Left Click To Summon Fireballs",
+      "§",
+      "Netherite Magic  Right Click On A Block To Turn It Into A Netherite Block"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 24.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "ItsAlonPlayzGodSwordRightClickedInAir"
+    },
+    "onRightClickedOnBlock": {
+      "name": "ItsAlonPlayzGodSwordRightClickedOnBlock"
+    },
+    "onEntityHitWith": {
+      "name": "ItsAlonPlayzGodSwordLivingEntityIsHitWithTool"
+    },
+    "onEntitySwing": {
+      "name": "ItsAlonPlayzGodSwordEntitySwingsItem"
+    }
+  }
+}
