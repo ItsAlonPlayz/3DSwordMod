@@ -1,0 +1,8 @@
+{
+  "parent": "itsalonplayz_god_sword:custom/itsalonplayz_god_sword.2.0json",
+  "textures": {
+    "2": "itsalonplayz_god_sword:blocks/god_sword",
+    "8": "itsalonplayz_god_sword:blocks/god_sword",
+    "particle": "itsalonplayz_god_sword:items/god_sword"
+  }
+}

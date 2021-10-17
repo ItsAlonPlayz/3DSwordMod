@@ -21,6 +21,7 @@ import net.minecraft.item.IItemTier;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.client.util.ITooltipFlag;
+import net.minecraft.block.BlockState;
 
 import net.mcreator.itsalonplayzgodsword.procedures.ItsAlonPlayzGodSwordRightClickedOnBlockProcedure;
 import net.mcreator.itsalonplayzgodsword.procedures.ItsAlonPlayzGodSwordRightClickedInAirProcedure;
@@ -103,6 +104,7 @@ public class ItsAlonPlayzGodSwordItem extends ItsalonplayzGodSwordModElements.Mo
 				BlockPos pos = context.getPos();
 				PlayerEntity entity = context.getPlayer();
 				Direction direction = context.getFace();
+				BlockState blockstate = world.getBlockState(pos);
 				int x = pos.getX();
 				int y = pos.getY();
 				int z = pos.getZ();

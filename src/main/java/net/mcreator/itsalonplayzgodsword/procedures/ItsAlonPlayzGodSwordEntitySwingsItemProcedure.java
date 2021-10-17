@@ -2,17 +2,11 @@ package net.mcreator.itsalonplayzgodsword.procedures;
 
 import net.minecraft.entity.Entity;
 
-import net.mcreator.itsalonplayzgodsword.ItsalonplayzGodSwordModElements;
 import net.mcreator.itsalonplayzgodsword.ItsalonplayzGodSwordMod;
 
 import java.util.Map;
 
-@ItsalonplayzGodSwordModElements.ModElement.Tag
-public class ItsAlonPlayzGodSwordEntitySwingsItemProcedure extends ItsalonplayzGodSwordModElements.ModElement {
-	public ItsAlonPlayzGodSwordEntitySwingsItemProcedure(ItsalonplayzGodSwordModElements instance) {
-		super(instance, 3);
-	}
-
+public class ItsAlonPlayzGodSwordEntitySwingsItemProcedure {
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
